@@ -9,16 +9,16 @@ public interface Subject {
      * zhuce
      * @param observer
      */
-    public void registerObserver(Observer observer);
+     void registerObserver(Observer observer);
 
     /**
      * 移除
      * @param observer
      */
-    public void remove(Observer observer);
+     void remove(Observer observer);
 
     /**
      * 通知
      */
-    public void notifyObservers();
+     void notifyObservers();
 }
