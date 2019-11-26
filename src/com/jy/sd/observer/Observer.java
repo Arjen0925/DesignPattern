@@ -6,5 +6,5 @@ package com.jy.sd.observer;
  */
 public interface Observer {
 
-    public void update();
+    public void update(float temperature, float pressure, float humidity);
 }
