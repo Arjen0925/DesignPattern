@@ -4,7 +4,7 @@ package com.jy.sd.observer;
  * @author jinxingjia
  * 11/22/19 11:39 AM
  */
-public class Client {
+public class ObserverClient {
 
     public static void main(String[] args) {
         //天气对象
